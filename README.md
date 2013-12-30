@@ -2,6 +2,7 @@ opendnie
 ========
 
 Liberación de fuentes desarrollados ad-hoc para el DNIe sobre esquema PKCS#11.
+Added a README thats describe 10 steps to build a OpenSC-DNIe release for Debian or derived distribution.
 
 ---------------------------------------
 - Update repository info README file --
