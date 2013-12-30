@@ -89,4 +89,4 @@ packaging/debian/trunk:
   * debian/rules:
     - Removed call to autoreconf sequence because it does not build in debian.
 
-Vìa: https://forja.cenatic.es/scm/viewvc.php/README?root=opendnie&view=log
+Vìa: https://forja.cenatic.es/scm/viewvc.php/?root=opendnie
