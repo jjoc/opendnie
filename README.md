@@ -72,4 +72,20 @@ Organización (jerarquía de directorios)
 |--tests 
 ·--dgp-sources
 
+  * Described how to build with svn-buildpackage under pbuilder.
+
+packaging/debian/trunk:
+  * Merge from Ubuntu precise.
+  * Added OpenDNIe driver to support the Spanish ID electronic card.
+  * debian/control:
+    - Recommend libacr38u, libccid and libnss3-tools.
+    - Removed dh-autoreconf as build-dependency.
+  * debian/opensc.install:
+    - Install dnie-tool and its man page.
+    - Removed duplicated installation of profiles.
+  * debian/watch:
+    - Mangle download url to use http instead of https.
+  * debian/rules:
+    - Removed call to autoreconf sequence because it does not build in debian.
+
 Vìa: https://forja.cenatic.es/scm/viewvc.php/README?root=opendnie&view=log
