@@ -54,24 +54,20 @@ Organización (jerarquía de directorios)
 |  .(más distribuciones)
 |  .
 |
-|--opensc-dnie
+  |--opensc-dnie
+|  |--branches
+|     |  ·--0.12.0
+|  ·--trunk
+|
+|--opensc-opendnie
 |  \
 |  |--branches
 |  |  \
-|  |  |--0.11.12
-|  |  |--0.11.13
-|  |  ·--0.12.0
+|  |  .--0.12.0
 |  ·--trunk
 |
-   |--opensc-opendnie
-   |  \
-   |  |--branches
-   |  |  \
-   |  |  .--0.12.0
-   |  ·--trunk
-   |
-   |--tests 
- ·--dgp-sources
+|--tests 
+·--dgp-sources
 
   * Described how to build with svn-buildpackage under pbuilder.
 
