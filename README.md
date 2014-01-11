@@ -63,15 +63,15 @@ Organización (jerarquía de directorios)
 |  |  ·--0.12.0
 |  ·--trunk
 |
-|--opensc-opendnie
-|  \
-|  |--branches
-|  |  \
-|  |  .--0.12.0
-|  ·--trunk
-|
-|--tests 
-·--dgp-sources
+   |--opensc-opendnie
+   |  \
+   |  |--branches
+   |  |  \
+   |  |  .--0.12.0
+   |  ·--trunk
+   |
+   |--tests 
+ ·--dgp-sources
 
   * Described how to build with svn-buildpackage under pbuilder.
 
