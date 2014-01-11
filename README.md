@@ -51,6 +51,8 @@ Organización (jerarquía de directorios)
 |  |  |  |--0.11.13
 |  |  |  ·--0.12.0
 |  |  ·--trunk
+  (X) --ubuntu 12.04
+|
 |  .(más distribuciones)
 |  .
 |
