@@ -28,50 +28,7 @@ Diversas aplicaciones de test
 - packaging
 Información adicional para los diversos sistemas de paquetería
 
-Organización (jerarquía de directorios)
------------------------------------------------------------------
-
-·-root
-\
-|--packaging
-|  \
-|  |--debian
-|  |  \
-|  |  |--branches
-|  |  |  \
-|  |  |  |--0.11.12
-|  |  |  |--0.11.13
-|  |  |  ·--0.12.0
-|  |  ·--trunk
-|  |--fedora
-|  |  \
-|  |  |--branches
-|  |  |  \
-|  |  |  |--0.11.12
-|  |  |  |--0.11.13
-|  |  |  ·--0.12.0
-|  |  ·--trunk
-  (X) --ubuntu 12.04
-|
-|  .(más distribuciones)
-|  .
-|
-  |--opensc-dnie
-|  |--branches
-|     |  ·--0.12.0
-|  ·--trunk
-|
-|--opensc-opendnie
-|  \
-|  |--branches
-|  |  \
-|  |  .--0.12.0
-|  ·--trunk
-|
-|--tests 
-·--dgp-sources
-
-  * Described how to build with svn-buildpackage under pbuilder.
+Organización 
 
 packaging/debian/trunk:
   * Merge from Ubuntu precise.
